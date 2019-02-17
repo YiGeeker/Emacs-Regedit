@@ -1,0 +1,6 @@
+# Exclude everything except what maintained by hand
+/*
+!.gitignore
+!README.org
+!emacs-regedit.py
+!regedit_value.json

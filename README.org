@@ -1,0 +1,15 @@
+* Emacs Registry Getting and Setting
+
+The configure values of Emacs on Windows system are stored in the
+system's registry. This script will help you get the configure values
+or set them of Emacs easily.
+
+** Usage
+
+Simply type ~emacs-regedit --get~ in command line to get the registry
+values, and the values will be stored in /regedit_value.json/ of
+current folder. If you want to change the setting, just modify the
+values of /regedit_value.json/. You can also add a new key and value
+or remove the existing key then type ~emacs-regedit --set32~ for
+32bits or ~emacs-regedit --set64~ for 64bits, because registry
+position of different bit version are different.
